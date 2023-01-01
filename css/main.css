@@ -1,16 +1,10 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "kyivtype_titlingregular";
-  src: url("../font/kyivtypetitling-regular-webfont.woff2") format("woff2"), url("../font/kyivtypetitling-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "kyivtype_titlingregular";
+  font-family: "Bona Nova";
   color: var(--text-color);
   background-color: var(--bg-color);
   letter-spacing: 0.03em;
@@ -194,8 +188,7 @@ section.top-nav {
   cursor: pointer;
   background-color: inherit;
   color: var(--accent-color);
-  font-family: "kyivtype_titlingregular";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 22px;
   line-height: 1.04;
   text-transform: lowercase;
@@ -922,6 +915,7 @@ textarea {
 }
 
 .about-myself__number-icon {
+  font-family: ITC Century;
   position: relative;
   font-weight: 300;
   font-size: 90px;
