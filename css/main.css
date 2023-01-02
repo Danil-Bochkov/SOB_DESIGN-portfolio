@@ -785,6 +785,7 @@ textarea {
   height: 100%;
   background-color: var(--muted-banner-color);
   backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
 }
 
 #project-1::after, #project-2::after, #project-3::after, #project-4::after, #project-5::after, #project-6::after {
