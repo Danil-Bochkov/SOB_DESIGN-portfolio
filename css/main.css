@@ -786,13 +786,16 @@ textarea {
 }
 
 #project-1::after, #project-2::after, #project-3::after, #project-4::after, #project-5::after, #project-6::after {
-  text-align: center;
-  color: var(--banner-text-color);
-  font-size: 38px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  -webkit-align-self: center;
+  align-self: center;
+  text-align: center;
+  color: var(--banner-text-color);
+  font-size: 38px;
 }
 @media screen and (min-width: 768px) {
   #project-1::after, #project-2::after, #project-3::after, #project-4::after, #project-5::after, #project-6::after {
