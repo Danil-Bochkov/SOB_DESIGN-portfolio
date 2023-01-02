@@ -772,6 +772,8 @@ textarea {
 
 .projects-list__link {
   position: relative;
+  display: block;
+  width: 100%;
 }
 .projects-list__link::before {
   content: "";
